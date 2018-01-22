@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26823.1
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Naive Bay", "PythonApplication1\Naive Bay.pyproj", "{257B903F-0D0D-467B-BDFD-6564CAB76258}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "class", "PythonApplication1\class.pyproj", "{257B903F-0D0D-467B-BDFD-6564CAB76258}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

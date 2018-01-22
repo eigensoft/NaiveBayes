@@ -10,7 +10,7 @@
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Naive Bay</Name>
+    <Name>class</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
     <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
   </PropertyGroup>
@@ -25,7 +25,13 @@
   <ItemGroup>
     <Compile Include="ClassifyNB.py" />
     <Compile Include="class_vis.py" />
-    <Compile Include="module1.py">
+    <Compile Include="accuracy.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClassifySVM.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tst.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="prep_terrain_data.py" />

@@ -16,6 +16,7 @@ def makeTerrainData(n_points=1000):
 
 ### split into train/test sets
     X = [[gg, ss] for gg, ss in zip(grade, bumpy)]
+    #X = zip(grade, bumpy)
     split = int(0.75*n_points)
     X_train = X[0:split]
     X_test  = X[split:]
